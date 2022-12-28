@@ -10,23 +10,16 @@ body {
     //  h1 {
     //   color: black;
     //  }
-        /* Relative font sizes */
-    --font-smallest: 0.07em;
-    --font-smaller: 0.0775em;
-    --font-small: 0.0833em;
-    /* UI font sizes */
-    --font-ui-smaller: 1px;
-    --font-ui-small: 1px;
-    --font-ui-medium: 1px;
-    --font-ui-large: 1px;
-    /* Font weights */
-    --font-thin: 10;
-    --font-extralight: 20;
-    --font-light: 30;
-    --font-normal: 40;
-    --font-medium: 50;
-    --font-semibold: 60;
-    --font-bold: 70;
-    --font-extrabold: 80;
-    --font-black: 90;
+.content {
+    max-width: 800px;
+    margin: auto;
+    font-size: 16 px;
+    line-height: 1.2;
+    margin-top: 80 px;
+    position: relative;
+    @media(max-width: 600px) {
+        margin-top: 140px;
+    }
+}
+    
 }
