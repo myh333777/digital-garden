@@ -3,28 +3,19 @@ body {
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    //  background-color: white;
-    // .content {
-    //  font-size: 14 px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+    background-color: white;
+    .content {
+      font-size: 12 px;
+      }
+      h1 {
+       color: black;
+      }
 .markdown-preview-view h1 {font-weight: 700;font-size: 28px;color:#000000}
 .markdown-preview-view h2 {font-weight: 600;font-size: 23px;color:#333333}
 .markdown-preview-view h3 {font-weight: 550;font-size: 18px;color:#666666}
 .markdown-preview-view h4 {font-weight: 400;font-size: 12px;color:#ff5555}
 .markdown-preview-view h5 {font-weight: 400;font-size: 12px;color:#ff5555}
 .markdown-preview-view h6 {font-weight: 400;font-size: 12px;color:#ff5555}
-
-.markdown-preview.markdown-preview {
-  font-family: 'Fira Code';
-  pre, code {
-    font-family: 'Fira Code';
-    white-space: pre-wrap;
-    font-size: 6px;
-  }
-}
 
 
 }
