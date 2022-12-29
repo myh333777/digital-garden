@@ -9,18 +9,14 @@ body {
 
 .content {
     max-width: 800px;
-    //800px;
     margin: auto;
-    font-size: 22 px;
-    //22px;
+    font-size: 22px;
     line-height: 1.5;
-    margin-top: 90 px;
-    // margin-top: 90px;
+    margin-top: 90px;
     position: relative;
 
     @media(max-width: 800px) {
         margin-top: 150px;
-        // 800 150
     }
 
 }
