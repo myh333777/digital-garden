@@ -19,7 +19,8 @@ body {
 
 
 /* normal text outside of headings and code of editor */
-.cm-s-obsidian, .mod-single-child .cm-s-obsidian {
+// .cm-s-obsidian, .mod-single-child .cm-s-obsidian {
+    .cm-s-obsidian {
  // font-size: var(--font-size-normal);
  font-size: 19px ;
  }
