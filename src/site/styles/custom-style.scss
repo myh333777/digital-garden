@@ -39,7 +39,7 @@ body {
 // }
 
 /* normal text outside of headings and code of preview */
-//.markdown-preview-view, .mod-single-child .markdown-preview-view {
-//  font-size: var(--font-size-normal);
-//}
-//}
+.markdown-preview-view, .mod-single-child .markdown-preview-view {
+  font-size: var(--font-size-normal);
+}
+}
