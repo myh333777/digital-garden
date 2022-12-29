@@ -8,15 +8,19 @@ body {
 }
 
 .content {
-    max-width: 700px;
+    max-width: 400px;
+    //800px;
     margin: auto;
-    font-size: 22px;
+    font-size: 18 px;
+    //22px;
     line-height: 1.5;
-    margin-top: 90px;
+    margin-top: 80 px;
+    // margin-top: 90px;
     position: relative;
 
-    @media(max-width: 800px) {
-        margin-top: 150px;
+    @media(max-width: 600px) {
+        margin-top: 100px;
+        // 800 150
     }
 
 }
