@@ -34,9 +34,9 @@ body {
 
 
 /* normal text outside of headings and code of editor */
-//.cm-s-obsidian, .mod-single-child .cm-s-obsidian {
-//  font-size: var(--font-size-normal);
-// }
+.cm-s-obsidian, .mod-single-child .cm-s-obsidian {
+  font-size: var(--font-size-normal);
+ }
 
 /* normal text outside of headings and code of preview */
 //.markdown-preview-view, .mod-single-child .markdown-preview-view {
