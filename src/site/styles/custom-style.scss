@@ -10,13 +10,35 @@ body {
     //  h1 {
     //   color: black;
     //  }
-.markdown-preview-view h1 {font-weight: 700;font-size: 30px;color:#000000}
-.markdown-preview-view h2 {font-weight: 600;font-size: 25px;color:#333333}
-.markdown-preview-view h3 {font-weight: 550;font-size: 20px;color:#666666}
-.markdown-preview-view h4 {font-weight: 400;font-size: 10px;color:#ff5555}
-.markdown-preview-view h5 {font-weight: 400;font-size: 10px;color:#ff5555}
-.markdown-preview-view h6 {font-weight: 400;font-size: 10px;color:#ff5555}
-    
-.markdown-preview.markdown-preview {color: blue;font-size: 3px}
+.markdown-preview-view h1 {font-weight: 700;font-size: 28px;color:#000000}
+.markdown-preview-view h2 {font-weight: 600;font-size: 23px;color:#333333}
+.markdown-preview-view h3 {font-weight: 550;font-size: 18px;color:#666666}
+.markdown-preview-view h4 {font-weight: 400;font-size: 12px;color:#ff5555}
+.markdown-preview-view h5 {font-weight: 400;font-size: 12px;color:#ff5555}
+.markdown-preview-view h6 {font-weight: 400;font-size: 12px;color:#ff5555}
 
+ :root{
+  --font-size-obsidian-titlebar:             12px;
+  --font-size-vault-name:                    14px;/*左侧库名字体大小*/
+  --font-size-file-header-title:             14px;/*文件抬头标题，只在非Andy mode plugin时生效*/
+  --font-size-file-header-title-andy-plugin: 16px;/*文件抬头标题for Andy mode plugin*/
+  --font-size-embed-title-size:              18px;
+  --font-size-embed-file:                    20px;
+  --font-size-folder-and-file:               13px;/*左侧边栏文件字体大小*/
+  --font-size-edit-normal:                   16px;/*编辑正文字体大小*/
+  --font-size-preview-normal:                16px;/*预览正文字体大小*/
+  --font-size-h1:                            25px;
+  --font-size-h2:                            23px;
+  --font-size-h3:                            21px;
+  --font-size-h4:                            19px;
+  --font-size-h5:                            17px;
+  --font-size-h6:                            15px;
+  --font-size-tag:                           16px;
+  --font-size-preview-blockquote:            16px;
+  --font-size-edit-blockquote:               16px;
+  --font-size-code:                          15px;
+  --font-size-edit-code:                     16px;
+  --font-size-latex:                         20px;
+  --text-size-cloze:                         15px;
+} 
 }
